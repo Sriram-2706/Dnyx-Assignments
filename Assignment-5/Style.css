@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+
+img {
+    width: 120px;
+    margin: 0 auto; 
+}
+
+.food-title {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.food-description {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 20px;
+    line-height: 1.5;
+}
+
+.food-price {
+    font-size: 20px;
+    color: #D0B200;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.ob {
+    width: 100px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 2px solid #D0B200;
+    color: #D0B200;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: absolute; 
+    bottom: 10%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.ob:hover {
+    background-color: #D0B200;
+    color: #ffffff;
+}
