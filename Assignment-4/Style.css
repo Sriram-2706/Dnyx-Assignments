@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.Chat {
+    width: 300px;
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png');
+    background-color: #323f4b;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #47a3f3;
+}
+
+.Chatdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.m {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.s {
+    background-color: #47a3f3;
+    align-self: flex-start;
+}
+
+.r {
+    background-color: #52606d;
+    align-self: flex-end;
+}
