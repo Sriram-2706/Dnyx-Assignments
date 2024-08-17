@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.Context p {
+    text-align: left;
+    padding: 0 20px;
+}
+
+.sb {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Context {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
